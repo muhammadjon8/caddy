@@ -11,11 +11,11 @@ function App() {
 
   return (
     <div className="app">
-      <main>
+      <div class="btn">
         <button className="support-button" onClick={handleSupportClick}>
           Talk to an Agent!
         </button>
-      </main>
+      </div>
 
       {showSupport && <LiveKitModal setShowSupport={setShowSupport}/>}
     </div>

@@ -97,8 +97,6 @@ nav a:hover {
 
 .support-button {
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
   padding: 1rem 2rem;
   background-color: #d52b1e;
   color: white;
@@ -208,4 +206,14 @@ nav a:hover {
 
 .name-form .cancel-button:hover {
   background-color: #555;
+}
+.btn {
+  position: absolute; /* Needed for top/left positioning */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
 }
